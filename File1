@@ -1,0 +1,19 @@
+import random
+import time
+import os
+print("Za chwilę zobaczysz na ekranie literę. Zapamiętaj ją.")
+litery="qwertyuiopasdfghjklzxcvbnm"
+wylosowana=random.choice(litery)
+print(wylosowana)
+time.sleep(3)
+os.system("cls")
+print("Wpisz, jaka to była litera:")
+start=time.time()
+litera=input()
+koniec=time.time()
+czas_trwania=koniec-start
+while wylosowana == litera:
+    print("Na reakcję potrzebowałeś", czas_trwania, "sekund")
+    break
+if wylosowana != litera:
+        print("Nieprawidłowa odpowiedź.")
