@@ -1,4 +1,4 @@
-#zad6
+#zmiana1
 import random
 import time
 import os
@@ -18,3 +18,5 @@ while wylosowana == litera:
     break
 if wylosowana != litera:
         print("Nieprawidłowa odpowiedź.")
+#zmiana2
+#zmiana3
