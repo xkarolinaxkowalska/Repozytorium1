@@ -18,3 +18,4 @@ while wylosowana == litera:
     break
 if wylosowana != litera:
         print("Nieprawidłowa odpowiedź.")
+#branch1line
